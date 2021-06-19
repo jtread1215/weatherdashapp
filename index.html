@@ -64,25 +64,59 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h2>5-Day Forecast</h2>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                    <div class="col forecast bg-primary text-white ml-3 mb-3 rounded"></div>
-                </div>
+                </div>      
             </div>
         </div>
     </div>
+    <div class="forecast-container">
+        <h2>5 Day Forecast:</h2>
+        <div id="card-container" class="card-group">
+            <div class="card text-white bg-light m-2">
+              <div class="daily-body">
+                <h5 id="day-one" class="card-title"> Date</h5>
+                <img id="day-one-icon" src="">
+                <p id="day-one-temp" class="card-text"> Temp: </p>
+                <p id="day-one-humid" class="card-text"> Humidity:</p>
+              </div>
+            </div>
+            <div class="card text-white bg-light m-2">
+                <div class="card-body">
+                  <h5 id="day-two" class="card-title"> Date</h5>
+                  <img id="day-two-icon" src="">
+                  <p id="day-two-temp" class="card-text"> Temp: </p>
+                  <p id="day-two-humid" class="card-text"> Humidity:</p>
+                </div>
+            </div>
+            <div class="card text-white bg-light m-2">
+                <div class="card-body">
+                  <h5 id="day-three" class="card-title"> Date</h5>
+                  <img id="day-three-icon" src="">
+                  <p id="day-three-temp" class="card-text"> Temp: </p>
+                  <p id="day-three-humid" class="card-text"> Humidity:</p>
+                </div>
+              </div>
+              <div class="card text-white bg-light m-2">
+                <div class="card-body">
+                  <h5 id="day-four" class="card-title"> Date</h5>
+                  <img id="day-four-icon" src="">
+                  <p id="day-four-temp" class="card-text"> Temp: </p>
+                  <p id="day-four-humid" class="card-text"> Humidity:</p>
+                </div>
+              </div>
+              <div class="card text-white bg-light m-2">
+                <div class="card-body">
+                  <h5 id="day-five" class="card-title"> Date</h5>
+                  <img id="day-five-icon" src="">
+                  <p id="day-five-temp" class="card-text"> Temp: </p>
+                  <p id="day-five-humid" class="card-text"> Humidity:</p>
+                </div>
+              </div>
+        </div>
+    </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
     <script src="./Assets/app.js"></script>
 </body>
 
