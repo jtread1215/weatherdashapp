@@ -43,6 +43,11 @@ p {
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
+.card-title {
+    font-size: large;
+    color: black;
+}
+
 .span {
     font-size: medium;
     font-weight: bold;
@@ -63,6 +68,30 @@ p {
     font-size: medium;
     font-weight: bold;
     color: black;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.green {
+    background-color: green;
+    color: black; 
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+    color: black;;
+}
+
+.red {
+    background-color: red;
+    color: black;; 
 }
 
 #search-btn {
