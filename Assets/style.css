@@ -1,0 +1,100 @@
+body {
+    background-color: grey;
+    
+}
+
+h1 {
+    text-align: center;
+    background-color:rgb(202, 45, 5);
+    font-size: xxx-large;
+    color: silver; 
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(202, 45, 5);
+}
+
+#clear-input {
+    margin-left: 10px;
+    background-color: rgb(230, 11, 11);
+}
+
+p {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+.col-8 {
+    margin:auto;
+    background-color: ivory;
+}
+
+.row {
+    color: ivory;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ 1);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.card-title {
+    font-size: large;
+    color: black;
+}
+
+.span {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+.content {
+    background-color: white;
+}
+
+#city-name {
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+}
+
+li.past-searches {
+    font-size: large;
+    color: black;
+}
+
+.badge {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+.green {
+    background-color: green;
+    color: black; 
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+    color: black;;
+}
+
+.red {
+    background-color: red;
+    color: black;; 
+}
+
+#search-btn {
+    background-color: rgb(230, 11, 11);
+}
